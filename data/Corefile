@@ -1,0 +1,7 @@
+lbtran.com {
+	 file /root/lbtran.com
+	 reload
+}
+. {
+	 forward . 8.8.8.8
+}

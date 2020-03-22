@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+    coredns:
+        image: coredns/coredns
+        restart: always
+        command: '-conf /root/Corefile'
+        ports:
+            - "53:53/udp"
+        volumes:
+        - "./data:/root/"
