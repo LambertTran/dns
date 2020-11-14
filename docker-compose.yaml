@@ -7,4 +7,4 @@ services:
         ports:
             - "53:53/udp"
         volumes:
-        - "/opt/lb/data/dns:/root/"
+        - "./data/dns:/root/"
